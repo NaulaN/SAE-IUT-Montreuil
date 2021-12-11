@@ -1,80 +1,95 @@
 /* BASE DES PAGES */
+@font-face {
+	font-family: "Comfortaa-Bold";
+	src: url("./Comfortaa-Bold.ttf");
+}
 
 
 body
 {
 	width: 1400px;
 	margin: auto;
-	background-image: url("images/backBody.png");
+	background-image: url("./images/backBody.png");
 }
-
 header
 {
-	background-color: gray;
+	/* background-color: gray; */
 	padding-bottom: 20px;
 }
-
 footer
 {
-	display: flex;
+	padding-bottom: 5px;
+	padding-top: 5px;
 
+	display: flex;
+	-webkit-justify-content: center;
 	justify-content: center;
+	-webkit-align-items: center;
 	align-items: center;
+
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 
 	background-color: gray;
 }
-
 nav
 {
 	background-color: gray;
 	margin-top: 5px;
-	text-align: center;
 }
-
 main
 {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	background-color: gray;
 }
 
 
 /* HEADER */
-#logo1{
-	width: 15%;
-	padding-left: 10px;
-	display: inline-block;
-}
-#nomPage{
-	display: inline-block;
-	margin-left: 320px;
+#logo1 { width: 15%; }
+#nomPage
+{
+	font-family: Comfortaa-Bold, sans-serif;
 	font-size: 60px;
-	color: #2A4183;
-	text-decoration: underline 3px;
+	color: black;
 }
-#logo2{
-	width: 15%;
-	display: inline-block;
-	float: right;
-}
-
+#logo2 { width: 15%; }
 #navBarTop
 {
 	margin-top: 5px;
 	padding-bottom: 5px;
 
-	/* Centre les textes et les "boites" de la barre de navigation */
+	/* Centre les textes et les "boites" (items) de la barre de navigation */
 	display: flex;
 	-webkit-justify-content: center;
 	justify-content: center;
-	-webkit-align-content: center;
+	-webkit-align-items: center;
 	align-items: center;
+
+	/* 🌸 Pour faire joli :) 🌸 */
+	border-radius: 10px 10px 10px 10px;
 
 	background-color: gray;
 }
+#topPage
+{
+	/* Décolle les items du bord du "div" */
+	padding-top: 5px;
+	padding-bottom: 5px;
 
+	/* Mets un espace autours des 3 boites (items) et centre le tous.*/
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	align-items: center;
 
-/*NAV */
+	/* 🌸 Pour faire joli :) 🌸 */
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	background-color: gray;
+}
+/* NAV */
 .nav1
 {
 	padding-left: 10px;
@@ -84,5 +99,31 @@ main
 .nav1 a { color: black; }
 .nav1 a:hover { color: #2A4183; }
 
+
+#sommaireAccueil
+{
+	margin-top: 10px;
+	padding: 10px 10px 10px 10px;
+	width: 25%;
+
+	background-color: gray;
+}
+#sommaireAccueil a  { color: black; }
+#sommaireAccueil h1 { font-size: 100% }
+#sommaireAccueil h2 { font-size: 95% }
+#sommaireAccueil h3 { font-size: 85% }
+#sommaireAccueil h4 { font-size: 75% }
+
+
+/* BODY */
+#weatherWidget
+{
+	padding: 5px 5px 5px 5px;
+	margin: auto;
+
+	width: 60%;
+
+	border-radius: 10px 10px 10px 10px;
+}
 
 /*FOOTER */
