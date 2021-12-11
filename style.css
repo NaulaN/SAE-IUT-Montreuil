@@ -1,0 +1,59 @@
+/* BASE DES PAGES */
+
+
+body{
+	width: 1400px;
+	margin: auto;
+	background-image: url("images/backBody.png");
+}
+header {
+	background-color: gray;
+	padding-bottom: 20px;
+}
+footer{
+	background-color: gray;
+}
+
+nav{
+	background-color: gray;
+	margin-top: 5px;
+	text-align: center;
+}
+
+main{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: gray;
+}
+
+/* HEADER */
+#logo1{
+	width: 15%;
+	padding-left: 10px;
+	display: inline-block;
+}
+#nomPage{
+	display: inline-block;
+	margin-left: 320px;
+	font-size: 60px;
+	color: #2A4183;
+	text-decoration: underline 3px;
+}
+#logo2{
+	width: 15%;
+	display: inline-block;
+	float: right;
+}
+
+/*NAV */
+
+.nav1{
+	text-decoration: none;
+	color: black;
+	margin-left: 30px;
+}
+
+/*FOOTER */
+#cpr{
+	text-align-last: center;
+}

@@ -1,0 +1,40 @@
+
+/* LES 3 DIVS DI MAIN */
+
+.inbl{
+	display: inline-block;
+	width: 29%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-image: url("../images/test.png");
+}
+
+#Tiago{
+	float: right;
+	margin-right: 3%;
+}
+#Antoine{
+	margin-left: 3%;
+}
+#Naulan{
+	margin-left: 3%;
+}
+
+/* INTERIEUR DES DIVS */
+
+.country{
+	display: inline-block;
+}
+.countryImg{
+	display: inline-block;
+	width: 6%;
+}
+
+.job{
+	margin-top: 0px;
+}
+.langues{
+	display: inline-block;
+	margin-top: 0px;
+}
