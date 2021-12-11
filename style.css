@@ -45,6 +45,8 @@ main{
 	float: right;
 }
 #navBarTop {
+	margin-top: 5px;
+	padding-bottom: 5px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
