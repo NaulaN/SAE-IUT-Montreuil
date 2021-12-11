@@ -44,13 +44,20 @@ main{
 	display: inline-block;
 	float: right;
 }
+#navBarTop {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 /*NAV */
-
-.nav1{
+.nav1 {
 	text-decoration: none;
 	color: black;
 	margin-left: 30px;
+}
+.nav1:hover {
+	cursor: pointer;
 }
 
 /*FOOTER */
