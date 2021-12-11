@@ -1,16 +1,21 @@
 /* BASE DES PAGES */
 
 
-body{
+body
+{
 	width: 1400px;
 	margin: auto;
 	background-image: url("images/backBody.png");
 }
-header {
+
+header
+{
 	background-color: gray;
 	padding-bottom: 20px;
 }
-footer{
+
+footer
+{
 	display: flex;
 
 	justify-content: center;
@@ -19,17 +24,20 @@ footer{
 	background-color: gray;
 }
 
-nav{
+nav
+{
 	background-color: gray;
 	margin-top: 5px;
 	text-align: center;
 }
 
-main{
+main
+{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background-color: gray;
 }
+
 
 /* HEADER */
 #logo1{
@@ -49,7 +57,9 @@ main{
 	display: inline-block;
 	float: right;
 }
-#navBarTop {
+
+#navBarTop
+{
 	margin-top: 5px;
 	padding-bottom: 5px;
 
@@ -63,6 +73,7 @@ main{
 	background-color: gray;
 }
 
+
 /*NAV */
 .nav1
 {
@@ -72,5 +83,6 @@ main{
 .nav1:hover { cursor: pointer; }
 .nav1 a { color: black; }
 .nav1 a:hover { color: #2A4183; }
+
 
 /*FOOTER */
