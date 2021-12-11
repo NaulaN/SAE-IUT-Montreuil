@@ -11,6 +11,11 @@ header {
 	padding-bottom: 20px;
 }
 footer{
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+
 	background-color: gray;
 }
 
@@ -47,24 +52,25 @@ main{
 #navBarTop {
 	margin-top: 5px;
 	padding-bottom: 5px;
+
+	/* Centre les textes et les "boites" de la barre de navigation */
 	display: flex;
+	-webkit-justify-content: center;
 	justify-content: center;
+	-webkit-align-content: center;
 	align-items: center;
 
 	background-color: gray;
 }
 
 /*NAV */
-.nav1 {
-	text-decoration: none;
-	color: black;
-	margin-left: 30px;
+.nav1
+{
+	padding-left: 10px;
+	padding-right: 10px;
 }
-.nav1:hover {
-	cursor: pointer;
-}
+.nav1:hover { cursor: pointer; }
+.nav1 a { color: black; }
+.nav1 a:hover { color: #2A4183; }
 
 /*FOOTER */
-#cpr{
-	text-align-last: center;
-}
