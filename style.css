@@ -53,14 +53,20 @@ main
 
 
 /* HEADER */
-#logo1 { width: 15%; }
+#logo1 {
+	padding-left: 12.5px;
+	width: 15%;
+}
 #nomPage
 {
 	font-family: Comfortaa-Bold, sans-serif;
 	font-size: 60px;
 	color: black;
 }
-#logo2 { width: 15%; }
+#logo2 {
+	padding-right: 12.5px;
+	width: 15%;
+}
 #navBarTop
 {
 	margin-top: 5px;
