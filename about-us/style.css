@@ -4,7 +4,6 @@
 
     color: white;
 
-    text-align: center;
 
     border-radius: 10px 10px 10px 10px;
 
@@ -13,4 +12,16 @@
 #presentation-of-UIT article figure img
 {
     width: 50%;
+}
+
+#illustration-presentation-0
+{
+    display: inline-block;
+    width: 45%;
+}
+#illustration-presentation-1
+{
+    display: inline-block;
+    width: 45%;
+
 }
