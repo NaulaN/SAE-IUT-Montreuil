@@ -1,3 +1,43 @@
+let button0Illustration = document.getElementById("button0");
+let button1Illustration = document.getElementById("button1");
+let button2Illustration = document.getElementById("button2");
+let illustrationSection = document.getElementById("illustration-UITpicture");
+
+let illustration0 = document.getElementById("illustration-UITpicture0");
+let illustration1 = document.getElementById("illustration-UITpicture1");
+let illustration2 = document.getElementById("illustration-UITpicture2");
+
+let scareButtonsIllustration = document.getElementById("allButtons");
+
+
+let allButtons = [illustration0, illustration1, illustration2]
+function addListenerButtonsIllustration(button, i)
+{
+    button.addEventListener("mouseover", (ev) => {
+        illustrationSection.style.opacity = "0";
+
+        for (let n = 0; n < allButtons.length; n++)
+        {
+            if (n == i)
+                allButtons[i].style.opacity = "100%"
+            else allButtons[n].style.opacity = "0";
+        }
+    })
+}
+
+
+addListenerButtonsIllustration(button0Illustration, 0);
+addListenerButtonsIllustration(button1Illustration, 1);
+addListenerButtonsIllustration(button2Illustration, 2);
+
+scareButtonsIllustration.addEventListener("mouseleave", (ev) => {
+    illustrationSection.style.opacity = "100%";
+
+    for (let n = 0; n < allButtons.length; n++)
+        allButtons[n].style.opacity = "0";
+})
+
+
 
 window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
 
