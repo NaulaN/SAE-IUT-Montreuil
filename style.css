@@ -138,8 +138,8 @@ main
 	/* Fonctionne pas sur Firefox (https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter) */
 	/* Un peut ironique d'ailleurs... */
 	/* Mets un arriere plan flou pour ressortir l'aside et l'article */
-	-webkit-backdrop-filter: blur(10px);
-	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
 
 	border-radius: 10px 10px 10px 10px;
 }
