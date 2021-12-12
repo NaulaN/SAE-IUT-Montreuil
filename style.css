@@ -5,7 +5,7 @@
 	src: url("./Comfortaa-Bold.ttf");
 }
 
-
+/* Change d'image */
 @keyframes changeIllustrationUIT
 {
 	0% { background-image: url("./images/illustration-1.jpg") }
