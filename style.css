@@ -53,7 +53,8 @@ main
 
 
 /* HEADER */
-#logo1 {
+#logo1
+{
 	padding-left: 12.5px;
 	width: 15%;
 }
@@ -63,7 +64,8 @@ main
 	font-size: 60px;
 	color: black;
 }
-#logo2 {
+#logo2
+{
 	padding-right: 12.5px;
 	width: 15%;
 }
