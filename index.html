@@ -1,4 +1,9 @@
 <!doctype html>
+<!-- SAE Recueil besoin.
+	 Codé par:
+	 	- CHRZASZCZ Naulan
+	 	- NARSICO Tiago
+	 	- BOUCHE Antoine -->
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -34,8 +39,10 @@
 
 
 		<main>
+			<!-- Affiche la météo, le div se remplit grâce au code JS dans script.js a la racine du dossier de travail -->
 			<div id="weatherWidget"></div>
 
+			<!-- Contient le sommaire, les images de l'IUT de Montreuil -->
 			<div id="firstPart">
 
 				<aside id="sommaireAccueil">
@@ -54,6 +61,7 @@
 								<a href="about-us/index.html#presentation-of-UIT">
 									<li><h1>Presentation of UIT</h1></li>
 								</a>
+								<!-- sous titre -->
 								<ul>
 									<a href="about-us/index.html#presentation-of-UIT-and-University-Paris8">
 										<li><h2>Presentation of UIT and University Paris8</h2></li>
@@ -82,7 +90,6 @@
 								</a>
 								<!-- sous titre -->
 								<ul>
-									<!-- Titre du document. -->
 									<a href="about-us/index.html#estimating-the-digital-footprint">
 										<li><h3>Estimating the digital footprint.</h3></li>
 									</a>
@@ -93,6 +100,7 @@
 										<li><h3>Other establishments that are committed to reducing their environmental impact.</h3></li>
 									</a>
 
+									<!-- sous partie -->
 									<ol>
 										<a href="about-us/index.html#usak-kanyon-college">
 											<li><h4>Uşak Kanyon College</h4></li>
@@ -106,25 +114,36 @@
 									</ol>
 								</ul>
 							</ul>
-
 						</div>
-					</div>
 
+					</div>
 				</aside>
 
+				<!-- Endroit uniquement pour faire beau, affiche 3 images principal de l'IUT de Montreuil. -->
 				<article id="UIT-Pictures">
 
 					<h1>UIT Pictures</h1>
 
 					<div>
+						<!-- div en display grid (Tableau)
+							 #illustration-UITpicture est l'affichage par défaut
+							 Les autres ont un style d'opacité 0%
+							 L'affichage change selon où est la souris sur les boutons du "div" suivant -->
 						<div id="illustration">
+							<!-- fonction gérer par le "script.js" -->
 							<div class="illustrations" id="illustration-UITpicture"></div>
 							<div class="illustrations" id="illustration-UITpicture0"></div>
 							<div class="illustrations" id="illustration-UITpicture1"></div>
 							<div class="illustrations" id="illustration-UITpicture2"></div>
 						</div>
 
+						<!-- 3 Boutons de forme rectangulaire, qui permet lors d'un passage de la souris sur ces boutons
+						 	 d'afficher une image en particulier
+						 	 Par exemple:
+						 	 	- "#button0" vas afficher 'illustration-0.jpg'
+						 	 	- ... -->
 						<div id="allButtons">
+							<!-- fonction gérer par le "script.js" -->
 							<div class="buttons" id="button0"></div>
 							<div class="buttons" id="button1"></div>
 							<div class="buttons" id="button2"></div>
@@ -148,7 +167,8 @@
 
 
 		<script src="script.js"></script>
-
 	</body>
+
+
 </html>
 
