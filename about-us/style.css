@@ -40,12 +40,23 @@
     width: 45%;
     margin-left: 5px;
 }
-#illustration-geographic-position {
+#illustration-geographic-position
+{
     display: flex;
     justify-content: center;
 }
 
 #text-illustration-presentation
+{
+    padding-left: 5%;
+    padding-right: 5%;
+
+    margin-top: 2.5%;
+
+    font-family: "Liberation Mono", monospace;
+    font-size: small;
+}
+#text-illustration-geographic-coordinate
 {
     padding-left: 5%;
     padding-right: 5%;
