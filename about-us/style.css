@@ -20,6 +20,12 @@ main
 
     backdrop-filter: blur(5px);
 }
+
+article
+{
+    margin-top: 5%;
+}
+
 #presentation-of-UIT article div img
 {
     width: 50%;
