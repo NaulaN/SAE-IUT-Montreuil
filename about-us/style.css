@@ -5,27 +5,32 @@
 }
 
 
-#presentation-of-UIT
+main
 {
     padding: 10px 10px 10px 10px;
-
     color: white;
 
     display: flex;
-    justify-content: center;
-    align-items: stretch;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    gap: 10px;
 
     border-radius: 10px 10px 10px 10px;
 
     backdrop-filter: blur(5px);
 }
-#presentation-of-UIT > article > div > img
+#presentation-of-UIT article div img
 {
     width: 50%;
 }
-#sommaireAccueil { margin-right: 0;}
+#sommaireAccueil
+{
+    margin-right: 0;
+    order: 2;
+}
 
-#illustration-presentation
+.illustration-presentation
 {
     display: flex;
     justify-content: center;
@@ -44,12 +49,6 @@
 
     border-radius: 10px 10px 10px 10px
 }
-#illustration-geographic-position
-{
-    display: flex;
-    justify-content: center;
-}
-
 #text-illustration-presentation
 {
     padding-left: 5%;
