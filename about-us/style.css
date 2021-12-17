@@ -12,7 +12,7 @@ main
 
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: stretch;
 
     gap: 10px;
 
@@ -68,6 +68,16 @@ article
     font-size: small;
 }
 #text-illustration-geographic-coordinate
+{
+    padding-left: 5%;
+    padding-right: 5%;
+
+    margin-top: 2.5%;
+
+    font-family: "Liberation Mono", monospace;
+    font-size: small;
+}
+#text-list-and-presentation-of-the-proposed-university-courses
 {
     padding-left: 5%;
     padding-right: 5%;
