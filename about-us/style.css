@@ -69,34 +69,34 @@ article
     font-size: 110%;
     text-decoration: underline;
 
-    background-color: gray;
+    background-color: #4e5a65;
     box-shadow: none;
-    border: solid 5px gray;
+    border: solid 5px #4e5a65;
     border-radius: 5px;
-    color: white;
+    color: #ebebf0;
 }
 #little-nav-button-0:hover
 {
     cursor: pointer;
-    background-color: #646464;
-    border: solid 5px #646464;
+    background-color: #fba292;
+    border: solid 5px #fba292;
 }
 #little-nav-button-1
 {
     font-size: 110%;
     text-decoration: underline;
 
-    background-color: gray;
+    background-color: #4e5a65;
     box-shadow: none;
-    border: solid 5px gray;
+    border: solid 5px #4e5a65;
     border-radius: 5px;
-    color: white;
+    color: #ebebf0;
 }
 #little-nav-button-1:hover
 {
     cursor: pointer;
-    background-color: #646464;
-    border: solid 5px #646464;
+    background-color: #fba292;
+    border: solid 5px #fba292;
 }
 
 .titles
