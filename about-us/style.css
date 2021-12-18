@@ -21,15 +21,19 @@ main
     backdrop-filter: blur(5px);
 }
 
+
 article
 {
     margin-top: 5%;
 }
 
+
 #presentation-of-UIT article div img
 {
     width: 50%;
 }
+
+
 #sommaireAccueil
 {
     margin-right: 0;
@@ -38,11 +42,24 @@ article
     flex: 1 25%;
 }
 
+
+.titles
+{
+    text-align: center;
+    font-size: 200%;
+    text-decoration: underline;
+
+    font-family: "Comfortaa-Bold", sans-serif;
+}
+
+
+/* == Img parts === */
 .illustration-presentation
 {
     display: flex;
     justify-content: center;
 }
+
 #illustration-presentation-0
 {
     width: 45%;
@@ -50,6 +67,7 @@ article
 
     border-radius: 10px 10px 10px 10px
 }
+
 #illustration-presentation-1
 {
     width: 45%;
@@ -57,6 +75,9 @@ article
 
     border-radius: 10px 10px 10px 10px
 }
+
+
+/* === Text parts === */
 #text-illustration-presentation
 {
     padding-left: 5%;
@@ -67,6 +88,7 @@ article
     font-family: "Liberation Mono", monospace;
     font-size: small;
 }
+
 #text-illustration-geographic-coordinate
 {
     padding-left: 5%;
@@ -77,6 +99,7 @@ article
     font-family: "Liberation Mono", monospace;
     font-size: small;
 }
+
 #text-list-and-presentation-of-the-proposed-university-courses
 {
     padding-left: 5%;
@@ -88,11 +111,35 @@ article
     font-size: small;
 }
 
-.titles
+#text-presentation-of-Student-association
 {
-    text-align: center;
-    font-size: 200%;
-    text-decoration: underline;
+    padding-left: 5%;
+    padding-right: 5%;
 
-    font-family: "Comfortaa-Bold", sans-serif;
+    margin-top: 2.5%;
+
+    font-family: "Liberation Mono", monospace;
+    font-size: small;
 }
+
+#text-description-of-the-bookcase-and-ressources
+{
+    padding-left: 5%;
+    padding-right: 5%;
+
+    margin-top: 2.5%;
+
+    font-family: "Liberation Mono", monospace;
+    font-size: small;
+}
+#text-interesting-association-near-to-the-UIT
+{
+    padding-left: 5%;
+    padding-right: 5%;
+
+    margin-top: 2.5%;
+
+    font-family: "Liberation Mono", monospace;
+    font-size: small;
+}
+
