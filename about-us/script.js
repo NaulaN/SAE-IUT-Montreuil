@@ -1,20 +1,23 @@
 /* Script codé par CHRZASZCZ Naulan */
 
 
-let littleNavButton0 = document.getElementById("little-nav-button-0");
-let littleNavButton1 = document.getElementById("little-nav-button-1");
-
 let presentationOfUITOfMontreuilSection = document.getElementById("presentation-of-UIT-div");
 let digitalFingerprintSection = document.getElementById("digital-fingerprint-div");
 
 
-littleNavButton0.addEventListener("click", (ev) => {
+function showPresentationOfUit() {
     presentationOfUITOfMontreuilSection.style.display = "inherit";
     digitalFingerprintSection.style.display = "none";
-});
+}
 
-littleNavButton1.addEventListener("click", (ev) => {
+function showdigitalFingerPrint() {
     presentationOfUITOfMontreuilSection.style.display = "none";
     digitalFingerprintSection.style.display = "inherit";
-});
+}
+
+
+document.getElementById("little-nav-button-0").onclick = function() {showPresentationOfUit()};
+document.getElementById("sommaire-part-presentation-of-UIT").onclick = function() {showPresentationOfUit()};
+document.getElementById("little-nav-button-1").onclick = function() {showdigitalFingerPrint()};
+document.getElementById("sommaire-part-digitalFingerprint").onclick = function() {showdigitalFingerPrint()};
 
