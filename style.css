@@ -62,6 +62,8 @@ main
 /* HEADER */
 #logo1
 {
+	image-rendering: optimizeSpeed;
+
 	padding-left: 12.5px;
 	width: 15%;
 }
@@ -73,6 +75,8 @@ main
 }
 #logo2
 {
+	image-rendering: optimizeSpeed;
+
 	padding-right: 12.5px;
 	width: 15%;
 }
@@ -96,6 +100,8 @@ main
 }
 #topPage
 {
+	image-rendering: optimizeSpeed;
+
 	/* Décolle les items du bord du "div" */
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -180,6 +186,8 @@ main
 }
 #UIT-Pictures
 {
+	image-rendering: optimizeSpeed;
+
 	padding: 10px 10px 10px 10px;
 	margin-left: 5%;
 
@@ -271,6 +279,8 @@ main
 }
 .illustrations
 {
+	image-rendering: optimizeSpeed;
+
 	grid-column-start: 1;
 	grid-column-end: 1;
 	grid-row-start: 1;
@@ -284,6 +294,8 @@ main
 }
 #illustration-UITpicture
 {
+	image-rendering: optimizeSpeed;
+
 	animation-name: changeIllustrationUIT;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
