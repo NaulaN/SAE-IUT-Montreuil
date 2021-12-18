@@ -20,12 +20,14 @@ body
 {
 	width: 1400px;
 	margin: auto;
-	background-image: url("./images/backBody.png");
+	/*background-image: url("./images/backBody.png");*/
+	background-color: #384048;
 }
 header
 {
 	/* background-color: gray; */
 	padding-bottom: 20px;
+	color: white;
 }
 footer
 {
@@ -38,11 +40,13 @@ footer
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 
-	background-color: gray;
+	background-color: #4e5a65;
+	color: #f1f1f3;
 }
 nav
 {
-	background-color: gray;
+	font-family: "Liberation Mono", monospace;
+	background-color: #4e5a65;
 	margin-top: 5px;
 }
 main
@@ -62,7 +66,7 @@ main
 {
 	font-family: Comfortaa-Bold, sans-serif;
 	font-size: 60px;
-	color: black;
+	color: #ededf1;
 }
 #logo2
 {
@@ -84,7 +88,8 @@ main
 	/* 🌸 Pour faire joli :) 🌸 */
 	border-radius: 10px 10px 10px 10px;
 
-	background-color: gray;
+	background-color: #4e5a65;
+	color: #f1f1f3;
 }
 #topPage
 {
@@ -103,17 +108,20 @@ main
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 
-	background-color: gray;
+	background-color: #4e5a65;
+	color: #f3f3f4;
 }
 /* NAV */
 .nav1
 {
 	padding-left: 10px;
 	padding-right: 10px;
+	color: #f1f1f3;
+
 }
 .nav1:hover { cursor: pointer; }
-.nav1 a { color: black; }
-.nav1 a:hover { color: #2A4183; }
+.nav1 a { color: #efeff2; text-decoration: none;}
+.nav1 a:hover { color: #fda393; }
 
 #sommaireAccueil
 {
@@ -128,11 +136,20 @@ main
 
 	border-radius: 10px 10px 10px 10px;
 
-	background-color: gray;
+	background-color: #4e5a65;
+	color: #efeff2;
 }
-#sommaireAccueil a  { color: black; }
+#sommaireAccueil a  {
+	color: #ededf1;
+	text-decoration: none;
+}
+#sommaireAccueil a:hover  { color: #fda393; }
 #sommaireAccueil li { margin-top: 10px; margin-bottom: 10px; }
-#sommaireAccueil h1 { font-size: 100% }
+#sommaireAccueil h1 {
+	font-family: "Comfortaa-Bold", sans-serif;
+	font-size: 100%;
+	text-decoration: underline;
+}
 #sommaireAccueil h2 { font-size: 95% }
 #sommaireAccueil h3 { font-size: 85% }
 #sommaireAccueil h4 { font-size: 75% }
@@ -153,7 +170,9 @@ main
 	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
 
-	height: 750px;
+	color: #f1f1f3;
+
+	height: 100%;
 	border-radius: 10px 10px 10px 10px;
 }
 #UIT-Pictures
@@ -161,15 +180,69 @@ main
 	padding: 10px 10px 10px 10px;
 	margin-left: 5%;
 
-	display: inline-block;
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 
-	width: 60%;
-	height: 500px;
+	font-family: "Comfortaa-Bold", sans-serif;
+	text-decoration: underline;
 
 	border-radius: 10px;
 
-	background-color: gray;
+	background-color: #4e5a65;
+}
+#little-news
+{
+	margin-top: 5%;
+	padding: 10px 10px 10px 10px;
+	margin-left: 5%;
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	border-radius: 10px;
+
+	background-color: #4e5a65;
+	color: #f1f1f3;
+}
+#little-news h1 {
+	margin-bottom: 0;
+
+	font-family: "Comfortaa-Bold", sans-serif;
+	text-decoration: underline double;
+	color: #f1f1f3;
+}
+
+#text-article-news
+{
+	padding: 10px 10px 10px 10px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	flex-direction: column;
+
+	background-color: #4e5a65;
+	border-radius: 10px;
+
+	font-family: "Liberation Mono", monospace;
+	font-size: 80%;
+	color: #f3f3f4;
+}
+#text-article-news h2 {
+	margin-top: 0;
+	text-decoration: underline;
+}
+#text-article-news > div {
+	display: flex;
+
+	justify-content: space-around;
+
+	flex-direction: row;
+	color: #f1f1f3;
 }
 #illustration
 {
@@ -183,8 +256,8 @@ main
 	grid-row-start: 1;
 	grid-row-end: 1;
 
-	width: 100%;
-	height: 405px;
+	width: 700px;
+	height: 400px;
 
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -202,17 +275,23 @@ main
 #illustration-UITpicture2 { background-image: url("images/illustrations/panel-Paris8-university.jpg"); opacity: 0; }
 .buttons
 {
-	display: inline-block;
-
 	height: 5px;
 	width: 35px;
 
-	background-color: azure;
+	background-color: #9aa5b0;
+	color: #f1f1f3;
 }
 .buttons:hover
 {
-	background-color: #2A4183;
+	background-color: #fda393;
 	cursor: pointer;
+}
+#allButtons
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
 }
 
 
@@ -222,9 +301,16 @@ main
 	padding: 5px 5px 5px 5px;
 	margin: auto;
 
-	width: 60%;
+	width: 50%;
+	font-family: "Comfortaa-Bold", sans-serif;
+	background-color: #4e5a65;
+	color: #f1f1f3;
 
 	border-radius: 10px 10px 10px 10px;
+}
+#weatherWidget > .visualcrossing-wx-widget
+{
+	background-color: #4e5a65;
 }
 
 /*FOOTER */

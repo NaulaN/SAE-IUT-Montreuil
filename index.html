@@ -21,7 +21,7 @@
 
 		<header>
 			<div id="topPage">
-				<img id="logo1" src="images/logos/UIT-Of-Montreuil.jpg"
+				<img id="logo1" src="images/logos/UIT-Of-Montreuil.png"
 					 alt="Logo IUT de Montreuil">
 
 				<!-- Page Title -->
@@ -92,36 +92,58 @@
 					</div>
 				</aside>
 
-				<!-- Endroit uniquement pour faire beau, affiche 3 images principal de l'IUT de Montreuil. -->
-				<article id="UIT-Pictures">
-					<h1>UIT Pictures</h1>
+				<div style="display: flex; flex-direction: column; flex-basis: 800px;">
+					<!-- Endroit uniquement pour faire beau, affiche 3 images principal de l'IUT de Montreuil. -->
+					<article id="UIT-Pictures">
+						<h1>UIT Pictures</h1>
 
-					<div>
-						<!-- div en display grid (Tableau)
-							 #illustration-UITpicture est l'affichage par défaut
-							 Les autres ont un style d'opacité 0%
-							 L'affichage change selon où est la souris sur les boutons du "div" suivant -->
-						<div id="illustration">
-							<!-- fonction gérer par le "script.js" -->
-							<div class="illustrations" id="illustration-UITpicture"></div>
-							<div class="illustrations" id="illustration-UITpicture0"></div>
-							<div class="illustrations" id="illustration-UITpicture1"></div>
-							<div class="illustrations" id="illustration-UITpicture2"></div>
-						</div>
+						<div>
+							<!-- div en display grid (Tableau)
+                                 #illustration-UITpicture est l'affichage par défaut
+                                 Les autres ont un style d'opacité 0%
+                                 L'affichage change selon où est la souris sur les boutons du "div" suivant -->
+							<div id="illustration">
+								<!-- fonction gérer par le "script.js" -->
+								<div class="illustrations" id="illustration-UITpicture"></div>
+								<div class="illustrations" id="illustration-UITpicture0"></div>
+								<div class="illustrations" id="illustration-UITpicture1"></div>
+								<div class="illustrations" id="illustration-UITpicture2"></div>
+							</div>
 
-						<!-- 3 Boutons de forme rectangulaire, qui permet lors d'un passage de la souris sur ces boutons
-						 	 d'afficher une image en particulier
-						 	 Par exemple:
-						 	 	- "#button0" vas afficher 'facade-IUT-De-Montreuil-Bat-A.jpg'
-						 	 	- ... -->
-						<div id="allButtons">
-							<!-- fonction gérer par le "script.js" -->
-							<div class="buttons" id="button0"></div>
-							<div class="buttons" id="button1"></div>
-							<div class="buttons" id="button2"></div>
+							<!-- 3 Boutons de forme rectangulaire, qui permet lors d'un passage de la souris sur ces boutons
+                                  d'afficher une image en particulier
+                                  Par exemple:
+                                      - "#button0" vas afficher 'facade-IUT-De-Montreuil-Bat-A.jpg'
+                                      - ... -->
+							<div id="allButtons">
+								<!-- fonction gérer par le "script.js" -->
+								<div class="buttons" id="button0"></div>
+								<div class="buttons" id="button1"></div>
+								<div class="buttons" id="button2"></div>
+							</div>
 						</div>
-					</div>
-				</article>
+					</article>
+
+					<article id="little-news">
+						<h1>📰 NEWS 📰</h1>
+						<div id="text-article-news">
+							<h2>Coffee machines piss !</h2>
+							<div>
+								<div style="text-align: left">
+									<p>Machines made available that are often non-operational can piss off your coffee.
+										Despite several maintenance and repairs, this machine breaks down after not even 1 month.</p>
+									<p>I quote, <cite>« Damn, he just pissed my coffee, noo! My 1€ »</cite> Tiago, a great man.</p>
+									<p>We got in touch with the manager of this machine, unfortunately without answer.</p>
+								</div>
+
+								<div>
+									<img src="images/illustrations/machine-1-bat.A.png"
+										 alt="">
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
 			</div>
 		</main>
 
