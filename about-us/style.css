@@ -50,6 +50,10 @@ article
     background-color: #4e5a65;
     color: #f1f1f3;
 }
+article img
+{
+    border-radius: 10px;
+}
 
 
 #presentation-of-UIT article div img
