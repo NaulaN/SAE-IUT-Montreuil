@@ -39,6 +39,16 @@ main
 article
 {
     margin-top: 5%;
+
+    padding: 10px 10px 10px 10px;
+
+    margin-bottom: 5px;
+    margin-right: 10px;
+
+    border-radius: 10px;
+
+    background-color: #4e5a65;
+    color: #f1f1f3;
 }
 
 
