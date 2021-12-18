@@ -131,6 +131,7 @@ main
 	background-color: gray;
 }
 #sommaireAccueil a  { color: black; }
+#sommaireAccueil li { margin-top: 10px; margin-bottom: 10px; }
 #sommaireAccueil h1 { font-size: 100% }
 #sommaireAccueil h2 { font-size: 95% }
 #sommaireAccueil h3 { font-size: 85% }
