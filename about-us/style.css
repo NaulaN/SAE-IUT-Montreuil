@@ -5,12 +5,26 @@
 }
 
 
+@keyframes changeSectionOut
+{
+        from { opacity: 100%; }
+        to { opacity: 0; }
+}
+
+@keyframes changeSectionIn
+{
+    from { opacity: 0; }
+    to { opacity: 100%; }
+}
+
+
 main
 {
     padding: 10px 10px 10px 10px;
     color: white;
 
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: stretch;
 
@@ -42,6 +56,48 @@ article
     flex: 1 25%;
 }
 
+#little-nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5px;
+}
+#little-nav-button-0
+{
+    font-size: 110%;
+    text-decoration: underline;
+
+    background-color: gray;
+    box-shadow: none;
+    border: solid 5px gray;
+    border-radius: 5px;
+    color: white;
+}
+#little-nav-button-0:hover
+{
+    cursor: pointer;
+    background-color: #646464;
+    border: solid 5px #646464;
+}
+#little-nav-button-1
+{
+    font-size: 110%;
+    text-decoration: underline;
+
+    background-color: gray;
+    box-shadow: none;
+    border: solid 5px gray;
+    border-radius: 5px;
+    color: white;
+}
+#little-nav-button-1:hover
+{
+    cursor: pointer;
+    background-color: #646464;
+    border: solid 5px #646464;
+}
 
 .titles
 {
@@ -152,4 +208,37 @@ article
 
     font-family: "Liberation Mono", monospace;
     font-size: small;
+}
+
+#text-estimating-the-digital-footprint
+{
+    padding-left: 5%;
+    padding-right: 5%;
+
+    margin-top: 2.5%;
+
+    font-family: "Liberation Mono", monospace;
+    font-size: small;
+}
+
+
+#presentation-of-UIT-div
+{
+    display: inherit;
+
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#digital-fingerprint-div
+{
+    display: none;
+
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
