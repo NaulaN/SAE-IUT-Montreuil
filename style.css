@@ -196,11 +196,10 @@ main
 {
 	margin-top: 5%;
 	padding: 10px 10px 10px 10px;
-	margin-left: 5%;
-
-	display: flex;
-	flex-direction: column;
 	text-align: center;
+	width: 100%;
+
+	margin-bottom: 5px;
 
 	border-radius: 10px;
 
@@ -209,13 +208,14 @@ main
 }
 #little-news h1 {
 	margin-bottom: 0;
+	margin-top: 0;
 
 	font-family: "Comfortaa-Bold", sans-serif;
 	text-decoration: underline double;
 	color: #f1f1f3;
 }
 
-#text-article-news
+.text-article-news
 {
 	padding: 10px 10px 10px 10px;
 
@@ -228,21 +228,38 @@ main
 	background-color: #4e5a65;
 	border-radius: 10px;
 
+	width: 45%;
+
 	font-family: "Liberation Mono", monospace;
 	font-size: 80%;
 	color: #f3f3f4;
 }
-#text-article-news h2 {
+.text-article-news h2 {
 	margin-top: 0;
 	text-decoration: underline;
 }
-#text-article-news > div {
+.text-article-news > div {
 	display: flex;
 
 	justify-content: space-around;
 
 	flex-direction: row;
 	color: #f1f1f3;
+}
+#news-section
+{
+	margin-left: 5%;
+	display: flex;
+
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+#news-section > article
+{
+	display: flex;
+	gap: 10%;
+	flex-direction: row;
 }
 #illustration
 {
