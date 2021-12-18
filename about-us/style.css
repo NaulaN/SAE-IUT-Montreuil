@@ -220,6 +220,29 @@ article
     font-family: "Liberation Mono", monospace;
     font-size: small;
 }
+#text-usak-kanyon-college
+{
+    padding-left: 5%;
+    padding-right: 5%;
+
+    margin-top: 2.5%;
+
+    font-family: "Liberation Mono", monospace;
+    font-size: small;
+}
+#text-usak-kanyon-college h3 { text-align: center; }
+
+.texts-articles
+{
+    padding-left: 5%;
+    padding-right: 5%;
+
+    margin-top: 2.5%;
+
+    font-family: "Liberation Mono", monospace;
+    font-size: small;
+}
+.texts-articles h3 { text-align: center; }
 
 
 #presentation-of-UIT-div
