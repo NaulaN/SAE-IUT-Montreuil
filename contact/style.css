@@ -2,6 +2,7 @@
 /* LES 3 DIVS DI MAIN */
 .inbl
 {
+
 	display: inline-block;
 	width: 29%;
 	text-align: center;
@@ -10,6 +11,20 @@
 	border-radius: 10px;
 
 	color: #ededf1;
+}
+.inbl h1
+{
+	font-family: "Comfortaa-Bold", sans-serif;
+	text-decoration: underline;
+}
+.inbl a
+{
+	color: #ededf1;
+	text-decoration: none;
+}
+.inbl a:hover
+{
+	color: #fba292;
 }
 
 #Tiago
