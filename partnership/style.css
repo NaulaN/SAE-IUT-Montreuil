@@ -1,0 +1,32 @@
+
+
+main
+{
+    padding: 10px 10px 10px 10px;
+    color: #ebebf0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+
+    gap: 10px;
+
+    border-radius: 10px 10px 10px 10px;
+}
+
+article
+{
+    margin-top: 5%;
+
+    padding: 10px 10px 10px 10px;
+
+    margin-bottom: 5px;
+    margin-right: 10px;
+
+    border-radius: 10px;
+
+    background-color: #4e5a65;
+    color: #f1f1f3;
+}
+
