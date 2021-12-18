@@ -1,39 +1,51 @@
 
 /* LES 3 DIVS DI MAIN */
-.inbl{
+.inbl
+{
 	display: inline-block;
 	width: 29%;
 	text-align: center;
-	margin-top: 20px;
 	margin-bottom: 20px;
-	background-image: url("../images/background-0.png");
+	background-color: #4e5a65;
+	border-radius: 10px;
+
+	color: #ededf1;
 }
 
-#Tiago{
+#Tiago
+{
 	float: right;
 	margin-right: 3%;
 }
-#Antoine{
+#Antoine
+{
 	margin-left: 3%;
 }
-#Naulan{
+#Naulan
+{
 	margin-left: 3%;
 }
 
 /* INTERIEUR DES DIVS */
 
-.country{
+.country
+{
+	text-decoration: underline;
 	display: inline-block;
 }
-.countryImg{
+.countryImg
+{
 	display: inline-block;
 	width: 6%;
 }
 
-.job{
-	margin-top: 0px;
+.job
+{
+	margin-top: 0;
 }
-.langues{
+.langues
+{
+	text-decoration: underline;
 	display: inline-block;
-	margin-top: 0px;
+	margin-top: 0;
 }
