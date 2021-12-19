@@ -127,15 +127,20 @@ main
 	padding-right: 10px;
 	color: #f1f1f3;
 
+	border-left: solid 1px #99a4af;
+	border-right: solid 1px #99a4af;
 }
 .nav1:hover { cursor: pointer; }
 .nav1 a { color: #efeff2; text-decoration: none;}
 .nav1 a:hover { color: #fda393; }
 
+
+/* Le sommaire */
 #sommaireAccueil
 {
 	margin-right: 5%;
-	padding-right: 20px;
+	padding-right: 30px;
+	padding-left: 20px;
 
 	font-family: "Liberation Mono", monospace;
 	font-size: 80%;
@@ -153,6 +158,7 @@ main
 	text-decoration: none;
 }
 #sommaireAccueil a:hover  { color: #fda393; }
+#sommaireAccueil ul {  }
 #sommaireAccueil li { margin-top: 10px; margin-bottom: 10px; }
 #sommaireAccueil h1 {
 	font-family: "Comfortaa-Bold", sans-serif;
@@ -162,6 +168,10 @@ main
 #sommaireAccueil h2 { font-size: 95% }
 #sommaireAccueil h3 { font-size: 85% }
 #sommaireAccueil h4 { font-size: 75% }
+
+#sommaire-part-presentation-of-UIT { border-bottom: solid 1px #99a4af; }
+/* ============ */
+
 
 #firstPart
 {
@@ -189,7 +199,6 @@ main
 	image-rendering: optimizeSpeed;
 
 	padding: 10px 10px 10px 10px;
-	margin-left: 5%;
 
 	display: flex;
 	flex-direction: column;
@@ -326,6 +335,24 @@ main
 	gap: 5px;
 }
 
+#news-articles
+{
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: space-around;
+}
+
+#right-content
+{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 800px;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: flex-start;
+	align-items: stretch;
+}
 
 /* BODY */
 #weatherWidget

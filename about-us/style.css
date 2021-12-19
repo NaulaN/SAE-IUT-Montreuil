@@ -180,6 +180,10 @@ article img
     font-family: "Liberation Mono", monospace;
     font-size: small;
 }
+#text-list-and-presentation-of-the-proposed-university-courses h3
+{
+    margin-top: 25px;
+}
 
 #text-presentation-of-Student-association
 {
@@ -258,7 +262,6 @@ article img
 }
 .texts-articles h3 { text-align: center; }
 
-
 #presentation-of-UIT-div
 {
     display: inherit;
@@ -282,4 +285,11 @@ article img
 #digital-fingerprint
 {
     margin-top: 0;
+}
+
+.separator-point
+{
+    border-bottom: solid 1px #98a3ae;
+    padding-top: 10px;
+    border-top: solid 1px #98a3ae;
 }
